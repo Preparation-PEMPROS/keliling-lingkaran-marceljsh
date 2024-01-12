@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "test_01",
+      "setup": "make compile",
+      "run": "make -s test_01",
+      "input": "",
+      "output": "Hello, world!",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 100
+    }
+  ]
+}
